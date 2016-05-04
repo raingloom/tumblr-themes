@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>i3 Tumblr Theme</title>
+</head>
+<body>
+<h1>Look for me in index.html</h1>
+<div class="posts">
+  {block:Posts}
+  <article class="post {PostType}" id="post{PostID}">
+    {PostsCode}
+
+    {partial:Tags}
+  </article>
+  {/block:Posts}
+</div>
+</body>
+</html>
+
